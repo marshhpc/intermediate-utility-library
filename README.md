@@ -88,7 +88,7 @@ function add(input1, input2) {
 
 ### List of functions
 
-Complete everything up to and including "Stand in Line" from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/). As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all lessons in FreeCodeCamp, but make utility functions for these):
+**Complete everything up to and including "Stand in Line"** from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/). As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all the lessons in this FreeCodeCamp section, but make utility functions for these):
 
 -  Add Two Numbers with JavaScript
 -  Subtract One Number from Another with JavaScript
