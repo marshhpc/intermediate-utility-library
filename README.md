@@ -52,84 +52,31 @@ Add functions to the `functions.js` file.
 
 Add a new Bootstrap column to `index.html` by copying and pasting everything between and including `<!-- start column -->` and `<!-- end column -->` editing the **function name**, its **description**, and **the number of inputs** it has.
 
-Here's an example using "Add Two Numbers with JavaScript":
-
-In `index.html`:
-
-```html
-<!-- start column -->
-<div class="col-12 col-lg-8 offset-lg-2 mb-5">
-   <p class="name"><b>add</b> - Add two values together</p>
-   <pre style="display: none;"><code></code></pre>
-   <div class="actions float-right">
-      <input type="text" class="form-control inline-action" />
-      <input type="text" class="form-control inline-action" />
-      <button class="btn btn-primary inline-action">
-         Run
-      </button>
-   </div>
-   <div class="clearfix mb-3"></div>
-   <div class="alert alert-primary" style="display: none;"></div>
-   <div class="alert alert-danger" style="display: none;"></div>
-</div>
-<!-- end column -->
-```
-
-In `functions.js`:
-
-```javascript
-function add(input1, input2) {
-   // A1: any JavaScript value
-   // A2: any JavaScript value
-   // R: a single JavaScript value
-   return input1 + input2;
-}
-```
-
 ### List of functions
 
-**Complete everything up to and including "Stand in Line"** from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/). As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all the lessons in this FreeCodeCamp section, but make utility functions for these):
+**Complete everything up from "Understanding Boolean Values" to "Use the parseInt Function"** from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/).
 
--  Add Two Numbers with JavaScript
--  Subtract One Number from Another with JavaScript
--  Multiply Two Numbers with JavaScript
--  Divide One Number by Another with JavaScript
--  Increment a Number with JavaScript
--  Decrement a Number with JavaScript
--  Multiply Two Decimals with JavaScript
--  Divide One Decimal by Another with JavaScript
--  Concatenating Strings with Plus Operator
--  Concatenating Strings with the Plus Equals Operator
--  Constructing Strings with Variables
--  Find the Length of a String
--  Use Bracket Notation to Find the First Character in a String
--  Use Bracket Notation to Find the Nth Character in a String
--  Use Bracket Notation to Find the Last Character in a String
--  Use Bracket Notation to Find the Nth-to-Last Character in a String
--  Manipulate Arrays With push()
--  Manipulate Arrays With pop()
--  Manipulate Arrays With shift()
--  Manipulate Arrays With unshift()
--  Shopping List
--  Stand in Line
+**Complete everything** in [JavaScript Algorithms and Data Structures Certification > Basic Data Structures](https://www.freecodecamp.org/learn/).
+
+**Complete everything** in [JavaScript Algorithms and Data Structures Certification > Debugging](https://www.freecodecamp.org/learn/).
+
+As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all the lessons described above, but make utility functions for these):
+
+-  Counting Cards
+-  Record Collection
+-  Iterate Odd Numbers With a For Loop
+-  Profile Lookup
+-  Generate Random Whole Numbers within a Range
+-  Remove Items Using splice()
+-  Add Items Using splice()
+-  Check For The Presence of an Element With indexOf()
+-  Use typeof to Check the Type of a Variable
 
 ## Step 3: Apply your learning to White Bear
 
 ### On `index.html`
 
-When the user clicks "Let's go!" or "Log in" check that the respective email field is not blank. If the email is blank, show an error message below the input that says, "Please enter your email address." and use Bootstrap 4 classes to style the input with error validation.
-
-When the user clicks "Let's go!" or "Log in" check that the respective password field is not less than 9 characters. If the password is less than 9 characters, show an error message below the input that says, "Your password must be at least 9 characters." and use Bootstrap 4 classes to style the input with error validation. If the password field is blank, the "Please enter your password." error message should display instead.
-
-When the user clicks "Let's go!" or "Log in" check that the respective password field is not blank. If the password is blank, show an error message below the input that says, "Please enter your password." and use Bootstrap 4 classes to style the input with error validation. This error message takes priority over the "Your password must be at least 9 characters." error message.
-
-### On `create-answer.html`
-
-Make the character counter count characters. For every character entered in the textarea, display the amount of characters in the part of the character counter that precedes the forward slash—for example, the `55` in `55/240`.
-
-Make the "Next" button disabled by default. When the textarea has > 0 characters and <= 240 characters in it, enable the button. If it has 0 or > 240 characters, disable it.
-
-Change the color of the entire character counter (`241/240`) to `$danger` if the characters in the textarea > 240 characters. The user may type as much as they want and the character counter will keep increasing.
+Todo.
 
 ## Step 4: Repeat this process with the next repo
 
