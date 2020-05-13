@@ -82,9 +82,11 @@ When a user creates a password under "Nice to meet you" lets add some new logic 
 
 -  The password cannot contain the [local-part](https://en.wikipedia.org/wiki/Email_address) of the email address the user entered.
 
-Display an error message to the user if that condition is violated: "Your email address cannot be used in your password."
+Display an error message to the user if that condition is violated: "Your email address cannot be used in your password." Style the email input with a Bootstrap class to highlight the error.
 
-Next, under "Nice to meet you", when the user clicks "Let's go!" after entering an email address and password that passes all validation, `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See below for conversion instructions. Also, create an `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
+Next, under "Nice to meet you", when the user clicks "Let's go!" after entering an email address and password that passes all validation, `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See below for conversion instructions.
+
+Also, create the `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
 
 ```javascript
 {
@@ -105,7 +107,9 @@ On converting the JavaScript Date object into a number, here is the number broke
 
 ### On `create-imagery.html`
 
-When the user clicks "Save", `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See above for conversion instructions. Also, create an `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
+When the user clicks "Save", `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See above for conversion instructions.
+
+Also, create the `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
 
 ```javascript
 {
