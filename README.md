@@ -76,6 +76,8 @@ As you complete each one, create simple utility functions that demonstrate a wor
 
 ### On `index.html`
 
+First, let's change "Let's go!" from an `<a>` to a `<button>` and delete the href attribute so we can work on this button without it sending us to the next page. :sweat_smile: (Leave "Log in" as is.)
+
 When a user creates a password under "Nice to meet you" lets add some new logic to our password validation when the user clicks "Let's go!":
 
 -  The password cannot contain the [local-part](https://en.wikipedia.org/wiki/Email_address) of the email address the user entered.
