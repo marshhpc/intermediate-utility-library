@@ -101,7 +101,7 @@ On converting the JavaScript Date object into a number, here is the number broke
 | --------------------- | ------------- | ----------- | ------------ | --------------- | --------------- |
 | last 2 digits of year | 2-digit month | 2-digit day | 2-digit hour | 2-digit minutes | 2-digit seconds |
 
-**NOTE: JavaScript months are zero-based! This makes for less readable data, so please add 1 to your month digit!**
+**NOTE: JavaScript months are zero-based! This makes for less readable data, so please add 1 to your month digit! (For example, 00 should be 01.)**
 
 ### On `create-imagery.html`
 
