@@ -76,7 +76,44 @@ As you complete each one, create simple utility functions that demonstrate a wor
 
 ### On `index.html`
 
-Todo.
+When a user creates a password under "Nice to meet you" lets add some new logic to our password validation when the user clicks "Let's go!":
+
+-  The password cannot contain the [local-part](https://en.wikipedia.org/wiki/Email_address) of the email address the user entered.
+
+Display an error message to the user if that condition is violated: "Your email address cannot be used in your password."
+
+Next, under "Nice to meet you", when the user clicks "Let's go!" after entering an email address and password that passes all validation, `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See below for conversion instructions. Also, create an `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
+
+```javascript
+{
+   _id: 678123,
+   email: "whatTheUserEnteredForTheirEmail",
+   password: "whatTheUserEnteredForTheirPassword",
+   createdOn: 200508232659
+}
+```
+
+On converting the JavaScript Date object into a number, here is the number broken into sections:
+
+| 20                    | 05            | 08          | 23           | 26              | 59              |
+| --------------------- | ------------- | ----------- | ------------ | --------------- | --------------- |
+| last 2 digits of year | 2-digit month | 2-digit day | 2-digit hour | 2-digit minutes | 2-digit seconds |
+
+### On `create-imagery.html`
+
+When the user clicks "Save", `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See above for conversion instructions. Also, create an `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
+
+```javascript
+{
+   _id: 002045,
+   imagery: "A delicious shishkebab but the first bite of meat after the pointy end is spicy & makes an exclamation point appear over my head like in a JRPG.",
+   answer: "The syntax for making a comment in HTML is <!-- Mike's comment here -->",
+   levelNum: 1,
+   successfulAttemptsNum: 0,
+   createdOn: 200508232659,
+   lastAttemptedOn: 200508232659 // same as createdOn
+}
+```
 
 ## Step 4: Repeat this process with the next repo
 
