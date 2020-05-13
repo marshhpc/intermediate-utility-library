@@ -99,6 +99,8 @@ On converting the JavaScript Date object into a number, here is the number broke
 | --------------------- | ------------- | ----------- | ------------ | --------------- | --------------- |
 | last 2 digits of year | 2-digit month | 2-digit day | 2-digit hour | 2-digit minutes | 2-digit seconds |
 
+**NOTE: JavaScript months are zero-based! This makes for less readable data, so please add 1 to your month digit!**
+
 ### On `create-imagery.html`
 
 When the user clicks "Save", `console.log` an object with the following schema, replacing the numbers in `createdOn` with a new number based on the [JavaScript Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) of today's date and time. See above for conversion instructions. Also, create an `_id` value by concatenating the milliseconds of the current datetime with a random number between 000 and 999. If the number of milliseconds or your random numbers is less that 3 characters long, be sure you pad it with 0s to the left, enuring each is 3 characters long.
