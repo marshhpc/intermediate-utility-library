@@ -80,4 +80,4 @@ Todo.
 
 ## Step 4: Repeat this process with the next repo
 
-[Intermediate Utility Library](https://github.com/punchcode-fullstack/intermediate-utility-library)
+[Functional Utility Library](https://github.com/punchcode-fullstack/functional-utility-library)
