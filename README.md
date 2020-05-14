@@ -54,7 +54,7 @@ Add a new Bootstrap column to `index.html` by copying and pasting everything bet
 
 ### List of functions
 
-**Complete everything up from "Understanding Boolean Values" to "Use the parseInt Function"** from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/).
+**Complete everything up from "Selecting from Many Options with Switch Statements" to "Use the parseInt Function"** from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/).
 
 **Complete everything** in [JavaScript Algorithms and Data Structures Certification > Basic Data Structures](https://www.freecodecamp.org/learn/).
 
