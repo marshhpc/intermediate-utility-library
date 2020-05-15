@@ -63,8 +63,8 @@ Add a new Bootstrap column to `index.html` by copying and pasting everything bet
 As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all the lessons described above, but make utility functions for these):
 
 -  Counting Cards
--  Record Collection
--  Iterate Odd Numbers With a For Loop
+-  ~~Record Collection~~ Can skip
+-  ~~Iterate Odd Numbers With a For Loop~~ Can skip
 -  Profile Lookup
 -  Generate Random Whole Numbers within a Range
 -  Remove Items Using splice()
